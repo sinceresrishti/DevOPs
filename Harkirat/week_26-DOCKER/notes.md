@@ -40,7 +40,7 @@ PORT MAPPING
 to stop, kill it
 
 - if you get error (permission denied) run following cmds
-- docker build -t hello-world-app .
+- sudo usermod -aG docker $USER
 - newgrp docker
 
 - passing env variable

@@ -44,7 +44,7 @@ or go over this url copy the whole thing and paste it into your terminal
 # nginx 
 - pronounce engine-x
 - why are we introducing nginx
-    - because there is ugly port (google.com does not has a port, our website have aport)
+    - because there is ugly port (google.com does not has a port, our website have a port)
     - google.com uses port 443 but I don't have to speciy it because it is using https (shuru me https hai mtlb, end me 443 hai, dalne ki zarurat nhi hai)
     - our website is hosted on http (port 80)
     - if I run my application on pport 80 then I don't have to specify port 80  (http://ec2-54-234-216-194.compute-1.amazonaws.com/todos)
